@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ProgmobKotlin2021</string>
+    <string name="text_progmob_main">Halo Progmob</string>
 </resources>

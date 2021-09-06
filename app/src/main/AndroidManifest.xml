@@ -10,7 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProgmobKotlin2021">
         <activity
-            android:name=".MainActivity"
+            android:name=".SampleListView"
+            android:exported="true" />
+        <activity
+            android:name=".SampleList"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,6 +21,29 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".MainActivity2"
+            android:exported="true" />
+        <activity
+            android:name=".ProteinTrackerActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TableActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ConstraintActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LinearActivity"
+            android:exported="true" />
+        <activity
+            android:name=".HelpActivity"
+            android:exported="true"
+            android:label="Help Activity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="Main Activty"></activity>
     </application>
 
 </manifest>

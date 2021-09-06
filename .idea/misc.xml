@@ -4,6 +4,15 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/ASUS/Documents/Android/ProgmobKotlin20212/app/src/main/res/layout/activity_main.xml" value="0.1068840579710145" />
+        <entry key="..\:/Users/ASUS/Documents/Android/progmobKotlin2021/app/src/main/res/layout/activity_constraint.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/ASUS/Documents/Android/progmobKotlin2021/app/src/main/res/layout/activity_help.xml" value="0.1796875" />
+        <entry key="..\:/Users/ASUS/Documents/Android/progmobKotlin2021/app/src/main/res/layout/activity_main.xml" value="0.4466666666666667" />
+        <entry key="..\:/Users/ASUS/Documents/Android/progmobKotlin2021/app/src/main/res/layout/activity_protein_tracker.xml" value="0.1796875" />
+        <entry key="..\:/Users/ASUS/Documents/Android/progmobKotlin2021/app/src/main/res/layout/activity_sample_list.xml" value="0.22" />
+        <entry key="..\:/Users/ASUS/Documents/Android/progmobKotlin2021/app/src/main/res/layout/activity_sample_list_view.xml" value="0.13043478260869565" />
+        <entry key="..\:/Users/ASUS/Documents/Android/progmobKotlin2021/app/src/main/res/layout/activity_table.xml" value="0.1796875" />
+        <entry key="..\:/Users/ASUS/Documents/Android/progmobKotlin2021/app/src/main/res/layout/tes_linear.xml" value="0.1796875" />
+        <entry key="..\:/Users/ASUS/Documents/Android/progmobKotlin2021/app/src/main/res/menu/menu_sample_list_view.xml" value="0.1796875" />
       </map>
     </option>
   </component>
