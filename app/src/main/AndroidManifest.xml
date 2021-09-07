@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProgmobKotlin2021">
         <activity
+            android:name=".SampleRecyclerView"
+            android:exported="true" />
+        <activity
             android:name=".SampleListView"
             android:exported="true" />
         <activity
@@ -43,7 +46,7 @@
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:label="Main Activty"></activity>
+            android:label="Main Activty" />
     </application>
 
 </manifest>
