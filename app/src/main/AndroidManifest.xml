@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProgmobKotlin2021">
         <activity
+            android:name=".SampleCardView"
+            android:exported="true" />
+        <activity
             android:name=".SampleRecyclerView"
             android:exported="true" />
         <activity

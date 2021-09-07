@@ -10,8 +10,8 @@
         android:id="@+id/btnShowList"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="88dp"
-        android:layout_marginTop="300dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="304dp"
         android:text="List View"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -22,7 +22,18 @@
         android:layout_height="wrap_content"
         android:text="Recycler"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintHorizontal_bias="0.079"
         app:layout_constraintStart_toEndOf="@+id/btnShowList"
         app:layout_constraintTop_toTopOf="@+id/btnShowList" />
+
+    <Button
+        android:id="@+id/btnSampleCard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Card View"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.111"
+        app:layout_constraintStart_toEndOf="@+id/btnSampleRV"
+        app:layout_constraintTop_toTopOf="@+id/btnSampleRV" />
 </androidx.constraintlayout.widget.ConstraintLayout>
