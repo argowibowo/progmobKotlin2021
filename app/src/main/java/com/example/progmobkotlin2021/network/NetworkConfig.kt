@@ -23,7 +23,7 @@ class NetworkConfig {
         return Retrofit.Builder()
             //.baseUrl("https://jsonplaceholder.typicode.com/")
             //.baseUrl("http://192.168.100.60/slim-tokobuah/public/")
-            .baseUrl("http://192.168.0.8/slim-tokobuah/public/")
+            .baseUrl("http://192.168.0.9/slim-tokobuah/public/")
             .client(getInterceptor())
             .addConverterFactory(GsonConverterFactory.create())
             .build()

@@ -33,13 +33,18 @@ class UpdatePetaniActivity : AppCompatActivity() {
         setContentView(R.layout.activity_update_petani)
 
         edId = findViewById(R.id.edId)
+        edNama = findViewById(R.id.edNama)
+
         if(intent.extras != null){
             var bundle : Bundle ?= intent.extras
             var strTes : String = bundle?.getString("idPetani").toString()
+            var strNama : String = bundle?.getString("namaPetani").toString()
+
             //Snackbar.make(getWindow().getDecorView().getRootView(),strTes, Snackbar.LENGTH_LONG).show()
             edId.setText(strTes)
+            edNama.setText(strNama)
         }
-        edNama = findViewById(R.id.edNama)
+
         edAlamat = findViewById(R.id.edAlamat)
         edProvinsi = findViewById(R.id.edProvinsi)
         edKabupaten = findViewById(R.id.edKabupaten)

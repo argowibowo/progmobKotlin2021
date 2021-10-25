@@ -54,8 +54,11 @@ class ResponsePetaniAdapter(var petani: List<DataItem>?): RecyclerView.Adapter<R
                 //Toast.makeText(holder.itemView.context, "Edit " + petani?.get(position)?.nama.toString(), Toast.LENGTH_SHORT).show()
                 var bundle = Bundle()
                 var idTmp = petani?.get(position)?.id.toString()
+                var namaTmp = petani?.get(position)?.nama.toString()
 
                 bundle.putString("idPetani",idTmp)
+                bundle.putString("namaPetani",namaTmp)
+
                 var intent = Intent(mContext, UpdatePetaniActivity::class.java)
                 intent.putExtras(bundle)
                 mContext.startActivity(intent)
